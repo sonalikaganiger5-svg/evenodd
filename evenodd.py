@@ -1,6 +1,6 @@
 def even_odd(num):
     if num % 2 == 0:
-        return "Even"
+        return "even"
     else:
         return "Odd"
 
