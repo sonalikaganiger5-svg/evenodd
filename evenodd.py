@@ -1,8 +1,11 @@
+
+import sys
 def even_odd(num):
     if num % 2 == 0:
         return "even"
     else:
         return "odd"
 
-print(even_odd(10))  # Even
-print(even_odd(7))   # Odd
+if __name__ == "__main__":
+    num = int(sys.argv[1])
+    print(even_odd(num))
